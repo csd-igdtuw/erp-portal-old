@@ -18,6 +18,7 @@ import avatar1 from "assets/images/avatar1.png";
 import avatar2 from "assets/images/avatar2.png";
 import avatar3 from "assets/images/avatar3.png";
 import avatar4 from "assets/images/avatar4.png";
+import Inayat from "assets/images/Inayat.jpg";
 
 export default function data() {
   const avatars = (members) =>
@@ -47,166 +48,81 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
-      { name: "members", align: "left" },
-      { name: "completion", align: "center" },
+      { name: "Event", align: "left" },
+      { name: "Date", align: "left" },
+      { name: "Venue", align: "center" },
     ],
 
     rows: [
       {
-        companies: (
-          <VuiBox display="flex" alignItems="center">
-            <AdobeXD size="20px" />
-            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Chakra Vision UI Version
-            </VuiTypography>
-          </VuiBox>
-        ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar2, "Romina Hadid"],
-              [avatar3, "Alexander Smith"],
-              [avatar4, "Jessica Doe"],
-            ])}
-          </VuiBox>
-        ),
-        completion: (
-          <VuiBox width="8rem" textAlign="left">
-            <VuiTypography color="white" variant="button" fontWeight="bold">
-              60%
-            </VuiTypography>
-            <VuiProgress value={60} color="info" label={false} sx={{ background: "#2D2E5F" }} />
-          </VuiBox>
-        ),
-      },
-      {
-        companies: (
-          <VuiBox display="flex" alignItems="center">
-            <Atlassian size="20px" />
-            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add Progress Track
-            </VuiTypography>
-          </VuiBox>
-        ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar2, "Romina Hadid"],
-              [avatar4, "Jessica Doe"],
-            ])}
-          </VuiBox>
-        ),
-        completion: (
-          <VuiBox width="8rem" textAlign="left">
-            <VuiTypography color="white" variant="button" fontWeight="bold">
-              10%
-            </VuiTypography>
-            <VuiProgress value={10} color="info" label={false} sx={{ background: "#2D2E5F" }} />
-          </VuiBox>
-        ),
-      },
-      {
-        companies: (
+        Event: (
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Fix Platform Errors
+              Care Wear Repair
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
+        Date: (
           <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar3, "Alexander Smith"],
-            ])}
+            <VuiTypography color="white" variant="button" fontWeight="bold">
+              12th June, 2022
+            </VuiTypography>
           </VuiBox>
         ),
-        completion: (
+        Venue: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              100%
+              Google Meet
             </VuiTypography>
-            <VuiProgress value={100} color="info" label={false} sx={{ background: "#2D2E5F" }} />
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Event: (
           <VuiBox display="flex" alignItems="center">
-            <Spotify size="20px" />
+            <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Launch our Mobile App
+              Relay Race
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
+        Date: (
           <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar4, "Jessica Doe"],
-              [avatar3, "Alexander Smith"],
-              [avatar2, "Romina Hadid"],
-              [avatar1, "Ryan Tompson"],
-            ])}
+            <VuiTypography color="white" variant="button" fontWeight="bold">
+              27th June, 2022
+            </VuiTypography>
           </VuiBox>
         ),
-        completion: (
+        Venue: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              100%
+              IGDTUW Campus Ground
             </VuiTypography>
-            <VuiProgress value={100} color="info" label={false} sx={{ background: "#2D2E5F" }} />
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Event: (
           <VuiBox display="flex" alignItems="center">
-            <Jira size="20px" />
+            <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add the New Pricing Page
+              Care Wear Repair
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
+        Date: (
           <VuiBox display="flex" py={1}>
-            {avatars([[avatar4, "Jessica Doe"]])}
+            <VuiTypography color="white" variant="button" fontWeight="bold">
+              12th June, 2022
+            </VuiTypography>
           </VuiBox>
         ),
-        completion: (
+        Venue: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              25%
+              Google Meet
             </VuiTypography>
-            <VuiProgress value={25} color="info" label={false} sx={{ background: "#2D2E5F" }} />
-          </VuiBox>
-        ),
-      },
-      {
-        companies: (
-          <VuiBox display="flex" alignItems="center">
-            <Invision size="20px" />
-            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Redesign New Online Shop
-            </VuiTypography>
-          </VuiBox>
-        ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar4, "Jessica Doe"],
-            ])}
-          </VuiBox>
-        ),
-        completion: (
-          <VuiBox width="8rem" textAlign="left">
-            <VuiTypography color="white" variant="button" fontWeight="bold">
-              40%
-            </VuiTypography>
-            <VuiProgress value={40} color="info" label={false} sx={{ background: "#2D2E5F" }} />
           </VuiBox>
         ),
       },

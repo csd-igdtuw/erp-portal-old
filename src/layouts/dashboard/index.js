@@ -39,6 +39,7 @@ import colors from "assets/theme/base/colors";
 
 // Dashboard layout components
 import WelcomeMark from "layouts/dashboard/components/WelcomeMark";
+import Calendar from "layouts/dashboard/components/Calendar";
 import Projects from "layouts/dashboard/components/Projects";
 import OrderOverview from "layouts/dashboard/components/OrderOverview";
 import SatisfactionRate from "layouts/dashboard/components/SatisfactionRate";
@@ -68,12 +69,22 @@ function Dashboard() {
     <DashboardLayout>
       <DashboardNavbar />
       <VuiBox py={3}>
-        <Grid container spacing={3} direction="row" justifyContent="center" alignItems="stretch">
+        
+        <VuiBox mb={3}>
+          <Grid container spacing="18px">
+            
+          </Grid>
+        </VuiBox>
+       
+        <Grid container spacing={3} direction="row" justifyContent="left" alignItems="stretch">
           <Grid item xs={12} md={6} lg={8}>
-            <Projects />
+            <Calendar />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <OrderOverview />
+          </Grid>
+          <Grid item xs={12} md={6} lg={8}>
+            <Projects />
           </Grid>
         </Grid>
       </VuiBox>
@@ -83,3 +94,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
