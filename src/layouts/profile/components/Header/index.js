@@ -23,7 +23,7 @@ import Grid from "@mui/material/Grid";
 import Tab from "@mui/material/Tab";
 import Tabs from "@mui/material/Tabs";
 // Images
-import burceMars from "assets/images/avatar-simmmple.png";
+import burceMars from "assets/images/CSD_logo.png";
 // Vision UI Dashboard React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 import VuiAvatar from "components/VuiAvatar";
@@ -127,10 +127,10 @@ function Header() {
               })}
             >
               <VuiTypography variant="lg" color="white" fontWeight="bold">
-                Mark Johnson
+Srishty Sharma
               </VuiTypography>
               <VuiTypography variant="button" color="text" fontWeight="regular">
-                mark@simmmple.com
+              srishty135btece202igdtuw.ac.in
               </VuiTypography>
             </VuiBox>
           </Grid>
@@ -142,9 +142,9 @@ function Header() {
                 onChange={handleSetTabValue}
                 sx={{ background: "transparent", display: "flex", justifyContent: "flex-end" }}
               >
-                <Tab label="OVERVIEW" icon={<IoCube color="white" size="16px" />} />
-                <Tab label="TEAMS" icon={<IoDocument color="white" size="16px" />} />
-                <Tab label="PROJECTS" icon={<IoBuild color="white" size="16px" />} />
+                <Tab label="OVERVIEW" icon={<IoCube color="white" size="16px"  />} />
+                <Tab label="EDIT" icon={<IoDocument color="white" size="16px" />} />
+                {/* <Tab label="SETTINGS" icon={<IoBuild color="white" size="16px" />} /> */}
               </Tabs>
             </AppBar>
           </Grid>
