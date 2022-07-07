@@ -41,7 +41,7 @@ import Footer from "examples/Footer";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 // Overview page components
 import Header from "layouts/profile/components/Header";
-import PlatformSettings from "layouts/profile/components/PlatformSettings";
+//import PlatformSettings from "layouts/profile/components/PlatformSettings";
 import Welcome from "../profile/components/Welcome/index";
 import CarInformations from "./components/CarInformations";
 
@@ -86,7 +86,7 @@ function Overview() {
           >
             <CarInformations />
           </Grid>
-          <Grid
+          {/* <Grid
             item
             xs={12}
             xl={3}
@@ -124,14 +124,14 @@ function Overview() {
                 },
               ]}
             />
-          </Grid>
+          </Grid> */}
         </Grid>
       </VuiBox>
       <Grid container spacing={3} mb="30px">
         <Grid item xs={12} xl={3} height="100%">
-          <PlatformSettings />
+          {/* <PlatformSettings /> */}
         </Grid>
-        <Grid item xs={12} xl={9}>
+        {/* <Grid item xs={12} xl={9}>
           <Card>
             <VuiBox display="flex" flexDirection="column" height="100%">
               <VuiBox display="flex" flexDirection="column" mb="24px">
@@ -141,8 +141,8 @@ function Overview() {
                 <VuiTypography color="text" variant="button" fontWeight="regular">
                   Architects design houses
                 </VuiTypography>
-              </VuiBox>
-              <Grid container spacing={3}>
+              </VuiBox> */}
+              {/* <Grid container spacing={3}>
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile1}
@@ -162,8 +162,8 @@ function Overview() {
                       { image: team4, name: "Peterson" },
                     ]}
                   />
-                </Grid>
-                <Grid item xs={12} md={6} xl={4}>
+                </Grid> */}
+                {/* <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile2}
                     label="project #1"
@@ -182,8 +182,8 @@ function Overview() {
                       { image: team2, name: "Ryan Milly" },
                     ]}
                   />
-                </Grid>
-                <Grid item xs={12} md={6} xl={4}>
+                </Grid> */}
+                {/* <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile3}
                     label="project #3"
@@ -202,11 +202,11 @@ function Overview() {
                       { image: team1, name: "Elena Morison" },
                     ]}
                   />
-                </Grid>
-              </Grid>
-            </VuiBox>
-          </Card>
-        </Grid>
+                </Grid> */}
+              {/* </Grid>
+            </VuiBox> */}
+          {/* </Card> */}
+        {/* </Grid> */}
       </Grid>
 
       <Footer />
