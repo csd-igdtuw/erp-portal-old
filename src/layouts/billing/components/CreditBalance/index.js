@@ -48,19 +48,19 @@ const CreditBalance = () => {
         >
           <VuiBox display="flex" justifyContent="space-beetween" alignItems="center">
             <VuiTypography variant="caption" color="white" fontWeight="medium" mr="auto">
-              Credit Balance
+              CERTIFICATE
             </VuiTypography>
             <FaEllipsisH color="white" size="18px" sx={{ cursor: "pointer" }} />
           </VuiBox>
           <VuiBox display="flex" justifyContent="space-beetween" alignItems="center">
             <VuiTypography variant="h2" color="white" fontWeight="bold" mr="auto">
-              $25,215
+              
             </VuiTypography>
             <VuiBox component="img" src={Graph} sx={{ width: "58px", height: "20px" }} />
           </VuiBox>
         </VuiBox>
         <VuiTypography color="text" variant="xxs" fontWeight="medium" mb="8px">
-          NEWEST
+          
         </VuiTypography>
         <VuiBox display="flex" justifyContent="space-beetween" alignItems="center">
           <Stack direction="row" spacing="10px" mr="auto">
@@ -80,15 +80,15 @@ const CreditBalance = () => {
             </VuiBox>
             <VuiBox display="flex" flexDirection="column">
               <VuiTypography color="white" variant="button" fontWeight="medium">
-                Bill & Taxes
+                
               </VuiTypography>
               <VuiTypography color="text" variant="button" fontWeight="medium">
-                Today, 16:36
+                
               </VuiTypography>
             </VuiBox>
           </Stack>
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            -$154.50
+            
           </VuiTypography>
         </VuiBox>
       </VuiBox>
