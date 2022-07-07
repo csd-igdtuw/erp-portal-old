@@ -49,7 +49,6 @@ export default function data() {
     columns: [
       { name: "companies", align: "left" },
       { name: "members", align: "left" },
-      { name: "budget", align: "center" },
       { name: "completion", align: "center" },
     ],
 
@@ -72,11 +71,6 @@ export default function data() {
               [avatar4, "Jessica Doe"],
             ])}
           </VuiBox>
-        ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            $14,000
-          </VuiTypography>
         ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
@@ -104,11 +98,6 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            $3,000
-          </VuiTypography>
-        ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
@@ -134,11 +123,6 @@ export default function data() {
               [avatar3, "Alexander Smith"],
             ])}
           </VuiBox>
-        ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            Not set
-          </VuiTypography>
         ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
@@ -168,11 +152,6 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            $20,500
-          </VuiTypography>
-        ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
@@ -195,11 +174,6 @@ export default function data() {
           <VuiBox display="flex" py={1}>
             {avatars([[avatar4, "Jessica Doe"]])}
           </VuiBox>
-        ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            $500
-          </VuiTypography>
         ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
@@ -226,11 +200,6 @@ export default function data() {
               [avatar4, "Jessica Doe"],
             ])}
           </VuiBox>
-        ),
-        budget: (
-          <VuiTypography variant="button" color="white" fontWeight="bold">
-            $2,000
-          </VuiTypography>
         ),
         completion: (
           <VuiBox width="8rem" textAlign="left">
