@@ -47,167 +47,148 @@ export default function data() {
 
   return {
     columns: [
-      { name: "Notices", align: "left" },
-      { name: "Team", align: "left" },
+      { name: "Notice", align: "left" },
+      { name: "Source", align: "left" },
       { name: "Date", align: "center" },
-      
     ],
 
     rows: [
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <AdobeXD size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Pejas- Chillao se Chill 
+              Notice 1
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar2, "Romina Hadid"],
-              [avatar3, "Alexander Smith"],
-              [avatar4, "Jessica Doe"],
-            ])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+            Cognito
           </VuiBox>
         ),
-        completion: (
+        Date: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              60%
+             
             </VuiTypography>
-            <VuiProgress value={60} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+            
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <Atlassian size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add Progress Track
+              Notice 2
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar2, "Romina Hadid"],
-              [avatar4, "Jessica Doe"],
-            ])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+           Team Inayat
+            
           </VuiBox>
         ),
-        completion: (
+        Date: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              10%
+              
             </VuiTypography>
-            <VuiProgress value={10} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+            
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <Slack size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Fix Platform Errors
+              Notice 3
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar3, "Alexander Smith"],
-            ])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+            CSD 
           </VuiBox>
         ),
-        completion: (
+        Date: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              100%
+              
             </VuiTypography>
-            <VuiProgress value={100} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+            
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <Spotify size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Launch our Mobile App
+              Notice 4
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar4, "Jessica Doe"],
-              [avatar3, "Alexander Smith"],
-              [avatar2, "Romina Hadid"],
-              [avatar1, "Ryan Tompson"],
-            ])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+            Team Pejas
           </VuiBox>
         ),
-        completion: (
+        Date: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              100%
+            
             </VuiTypography>
-            <VuiProgress value={100} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+            
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <Jira size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add the New Pricing Page
+              Notice 5
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([[avatar4, "Jessica Doe"]])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+            CSD
           </VuiBox>
         ),
-        completion: (
+        Date: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              25%
+              
             </VuiTypography>
-            <VuiProgress value={25} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+           
           </VuiBox>
         ),
       },
       {
-        companies: (
+        Notice: (
           <VuiBox display="flex" alignItems="center">
-            <Invision size="20px" />
+            
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Redesign New Online Shop
+              Notice 6
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
-          <VuiBox display="flex" py={1}>
-            {avatars([
-              [avatar1, "Ryan Tompson"],
-              [avatar4, "Jessica Doe"],
-            ])}
+        Source: (
+          <VuiBox display="flex" py={2}>
+            Team Adira
           </VuiBox>
         ),
-        completion: (
+        Data: (
           <VuiBox width="8rem" textAlign="left">
             <VuiTypography color="white" variant="button" fontWeight="bold">
-              40%
+             
             </VuiTypography>
-            <VuiProgress value={40} color="info" label={false} sx={{ background: "#2D2E5F" }} />
+            
           </VuiBox>
         ),
       },

@@ -1,19 +1,13 @@
 /*!
-
 =========================================================
 * Vision UI Free React - v1.0.0
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
 * Copyright 2021 Creative Tim (https://www.creative-tim.com/)
 * Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
 * Design and Coded by Simmmple & Creative Tim
-
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 
 import { useState } from "react";
@@ -72,12 +66,12 @@ function Projects() {
       <VuiBox display="flex" justifyContent="space-between" alignItems="center" mb="32px">
         <VuiBox mb="auto">
           <VuiTypography color="white" variant="lg" mb="6px" gutterBottom>
-            Projects
+            Notifications
           </VuiTypography>
           <VuiBox display="flex" alignItems="center" lineHeight={0}>
-            <BsCheckCircleFill color="green" size="15px" />
+           
             <VuiTypography variant="button" fontWeight="regular" color="text" ml="5px">
-              &nbsp;<strong>30 done</strong> this month
+             
             </VuiTypography>
           </VuiBox>
         </VuiBox>
