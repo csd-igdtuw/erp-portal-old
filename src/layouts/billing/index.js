@@ -33,7 +33,7 @@ import Footer from "examples/Footer";
 //import PaymentMethod from "layouts/billing/components/PaymentMethod";
 import Invoices from "layouts/billing/components/Invoices";
 //import BillingInformation from "layouts/billing/components/BillingInformation";
-//import Transactions from "layouts/billing/components/Transactions";
+import Transactions from "layouts/billing/components/Transactions";
 import CreditBalance from "./components/CreditBalance";
 
 function Billing() {
@@ -66,9 +66,9 @@ function Billing() {
             {/* <Grid item xs={12} md={7}>
               <BillingInformation />
             </Grid> */}
-            {/* <Grid item xs={12} md={5}>
+             <Grid item xs={12} md={5}>
               <Transactions />
-            </Grid> */}
+            </Grid> 
           </Grid>
         </VuiBox>
       </VuiBox>
