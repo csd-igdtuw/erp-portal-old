@@ -29,7 +29,7 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
-
+import VuiAvatar from "components/VuiAvatar";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
@@ -47,7 +47,8 @@ import sidenavLogoLabel from "examples/Sidenav/styles/sidenav";
 import { useVisionUIController, setMiniSidenav, setTransparentSidenav } from "context";
 
 // Vision UI Dashboard React icons
-import SimmmpleLogo from "examples/Icons/SimmmpleLogo";
+// import SimmmpleLogo from "examples/Icons/SimmmpleLogo";
+import burceMars from "assets/images/CSD_logo.png";
 
 // function Sidenav({ color, brand, brandName, routes, ...rest }) {
 function Sidenav({ color, brandName, routes, ...rest }) {
@@ -184,7 +185,15 @@ function Sidenav({ color, brandName, routes, ...rest }) {
                 })
               }
             >
-              <SimmmpleLogo size="24px" />
+              <VuiAvatar
+              src={burceMars}
+              alt="profile-image"
+              variant="rounded"
+              size="240x"
+              // shadow="sm"
+            />
+              {/* <burceMars size="24px"/> */}
+              {/* <SimmmpleLogo size="24px" /> */}
             </VuiBox>
             <VuiTypography
               variant="button"
@@ -225,8 +234,8 @@ function Sidenav({ color, brandName, routes, ...rest }) {
           },
         })}
       >
-        <SidenavCard color={color} />
-        <VuiBox mt={2}>
+        {/* <SidenavCard color={color} /> */}
+        {/* <VuiBox mt={2}>
           <VuiButton
             component="a"
             href="https://creative-tim.com/product/vision-ui-dashboard-pro-react"
@@ -238,7 +247,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
           >
             Upgrade to PRO
           </VuiButton>
-        </VuiBox>
+        </VuiBox> */}
       </VuiBox>
     </SidenavRoot>
   );

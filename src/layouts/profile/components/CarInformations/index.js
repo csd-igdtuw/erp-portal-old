@@ -43,24 +43,27 @@ const CarInformations = () => {
       borderRadius: "20px",
       marginLeft:"100px",
       width: "600px",
-      height: "350px",
+      height: "400px",
       })}
     >
       <VuiBox display="flex" flexDirection="column" sx={{ height: "100%" }}>
       <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           CSD PHASE 2
+      CSD IGDTUW, Phase -3 (July 2022- July 2023)
           </VuiTypography><br/>
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           Cousre & Department : B.Tech (ECE)
+           Cousre: B.Tech 
           </VuiTypography><br/>
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           Year : 3rd
+          Department: Electronics and Communication Engineering
           </VuiTypography><br/>
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           Compulsory Subject: No
+           Year: 3rd
           </VuiTypography><br/>
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           GEC: Yes
+            GEC: Yes
+          </VuiTypography><br/>
+          <VuiTypography    color="white" variant="form" fontWeight="regular" >
+          Compulsory Subject: No
           </VuiTypography><br/>
       </VuiBox>
     </Card>
