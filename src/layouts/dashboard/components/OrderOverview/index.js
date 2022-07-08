@@ -44,12 +44,12 @@ function OrdersOverview() {
     <Card className="h-100">
       <VuiBox mb="16px">
         <VuiTypography variant="lg" fontWeight="bold" mb="5px" color="white">
-          EVENTS
+          LATEST EVENT
         </VuiTypography>
         <VuiBox mb={2}>
           <VuiBox display="flex" alignItems="center">
             <VuiTypography variant="button" color="text" fontWeight="regular">
-              CSD Event Committe Name here
+              CSD Event Committee Name- Pejas
             </VuiTypography>   
           </VuiBox>
         </VuiBox>
@@ -57,12 +57,12 @@ function OrdersOverview() {
       <VuiBox>
         <TimelineItem
           icon={<FaBell size="16px" color={palette.info.main} />}
-          title="Event Name"
-          dateTime="22 DEC 7:20 PM"
+          title="Event Name-Relay Race"
+          dateTime="22 DEC 10:30 AM"
         />
       </VuiBox>
       <VuiBox>
-      <img src={Relay} alt="Relay-race(Event info ish??)" width="320" height="500" />
+      <img src={Relay} alt="Relay-race(Event info ish??)" width="320" height="410" />
       
       
       </VuiBox>
