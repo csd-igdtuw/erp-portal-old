@@ -53,16 +53,16 @@ function Transactions() {
             },
           })}
         >
-          Your Transaction&apos;s
+          ATTENDANCE
         </VuiTypography>
         <VuiBox display="flex" alignItems="flex-start">
           <VuiBox color="white" mr="6px" lineHeight={0}>
             <Icon color="inherit" fontSize="small">
-              date_range
+              
             </Icon>
           </VuiBox>
           <VuiTypography variant="button" color="text" fontWeight="regular">
-            23 - 30 March 2020
+            
           </VuiTypography>
         </VuiBox>
       </VuiBox>
@@ -74,7 +74,40 @@ function Transactions() {
             fontWeight="medium"
             textTransform="uppercase"
           >
-            newest
+            
+          </VuiTypography>
+        </VuiBox>
+        <VuiBox
+          component="ul"
+          display="flex"
+          flexDirection="column"
+          p={0}
+          m={0}
+          sx={{ listStyle: "none" }}
+        >
+          <Transaction
+            color="success"
+            icon="arrow_upward"
+            name="EVENTS"
+            description="Each event has its separate attendance"
+            value="ATTENDANCE"
+          />
+          <Transaction
+            color="success"
+            icon="arrow_upward"
+            name="Event 1"
+            description="Conducted By team Adira"
+            value="Present"
+          />
+        </VuiBox>
+        <VuiBox mt={1} mb={2}>
+          <VuiTypography
+            variant="caption"
+            color="text"
+            fontWeight="medium"
+            textTransform="uppercase"
+          >
+            
           </VuiTypography>
         </VuiBox>
         <VuiBox
@@ -88,63 +121,30 @@ function Transactions() {
           <Transaction
             color="error"
             icon="arrow_downward"
-            name="Netflix"
-            description="27 March 2020, at 12:30 PM"
-            value="- $ 2,500"
+            name="Event 2"
+            description="Conducted by team Sashakt Drishti"
+            value="Absent"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="Apple"
-            description="27 March 2020, at 04:30 AM"
-            value="+ $ 2,000"
-          />
-        </VuiBox>
-        <VuiBox mt={1} mb={2}>
-          <VuiTypography
-            variant="caption"
-            color="text"
-            fontWeight="medium"
-            textTransform="uppercase"
-          >
-            yesterday
-          </VuiTypography>
-        </VuiBox>
-        <VuiBox
-          component="ul"
-          display="flex"
-          flexDirection="column"
-          p={0}
-          m={0}
-          sx={{ listStyle: "none" }}
-        >
-          <Transaction
-            color="success"
-            icon="arrow_upward"
-            name="Stripe"
-            description="26 March 2020, at 13:45 PM"
-            value="+ $ 750"
+            name="Event 2"
+            description="Conducted by team Eudaimonia"
+            value="Present"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="HubSpot"
-            description="26 March 2020, at 12:30 PM"
-            value="+ $ 1,000"
+            name="Event 3"
+            description="Conducted by team Cognito"
+            value="Present"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="HubSpot"
-            description="26 March 2020, at 08:30 AM"
-            value="+ $ 2,500"
-          />
-          <Transaction
-            color="text"
-            icon="priority_high"
-            name="Webflow"
-            description="26 March 2020, at 05:00 AM"
-            value="Pending"
+            name="Event 4"
+            description="Conducted by team Inayat"
+            value="Present"
           />
         </VuiBox>
       </VuiBox>

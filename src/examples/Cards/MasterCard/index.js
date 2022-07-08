@@ -53,7 +53,7 @@ function MasterCard({ number, valid, cvv }) {
           sx={{ width: "100%" }}
         >
           <VuiTypography color="white" variant="lg" fontWeight="bold" mr="auto">
-            Vision UI
+            Feedback
           </VuiTypography>
           <RiMastercardFill size="48px" color="white" />
         </VuiBox>
@@ -76,7 +76,7 @@ function MasterCard({ number, valid, cvv }) {
           <VuiBox display="flex" alignItems="center">
             <VuiBox mr={3} lineHeight={1}>
               <VuiTypography variant="xxs" color="white" fontWeight="medium" opacity={0.8}>
-                VALID THRU
+                
               </VuiTypography>
               <VuiTypography
                 variant="h6"
@@ -89,7 +89,7 @@ function MasterCard({ number, valid, cvv }) {
             </VuiBox>
             <VuiBox lineHeight={1}>
               <VuiTypography variant="xxs" color="white" fontWeight="medium" opacity={0.8}>
-                CVV
+                
               </VuiTypography>
               <VuiTypography variant="h6" color="white" fontWeight="medium">
                 {cvv}
