@@ -55,8 +55,8 @@ export default function data() {
 
   return {
     columns: [
-      { name: "Event", align: "left" },
       { name: "Team", align: "left" },
+      { name: "Event", align: "left" },
       { name: "Date", align: "left" },
       { name: "Venue", align: "center" },
     ],
@@ -72,7 +72,9 @@ export default function data() {
         ),
         Team: (
           <VuiBox display="flex" alignItems="center">
-            <Slack size="20px" />
+            {avatars([
+              [Inayat, "Inayat"],
+            ])}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
               Inayat
             </VuiTypography>
@@ -103,7 +105,9 @@ export default function data() {
         ),
         Team: (
           <VuiBox display="flex" alignItems="center">
-            <Slack size="20px" />
+            {avatars([
+              [Pejas, "Pejas"],
+            ])}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
               Pejas
             </VuiTypography>
@@ -134,9 +138,11 @@ export default function data() {
         ),
         Team: (
           <VuiBox display="flex" alignItems="center">
-            <Slack size="20px" />
+            {avatars([
+              [Adira, "Adira"],
+            ])}
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Pejas
+              Adira
             </VuiTypography>
           </VuiBox>
         ),
