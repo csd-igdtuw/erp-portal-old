@@ -18,7 +18,9 @@
 
 /* eslint-disable react/prop-types */
 // @mui material components
-import Icon from "@mui/material/Icon";
+
+
+/*import Icon from "@mui/material/Icon";
 
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
@@ -179,4 +181,4 @@ export default {
       action,
     },
   ],
-};
+};*/

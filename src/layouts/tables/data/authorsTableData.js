@@ -64,14 +64,14 @@ function Function({ job, org }) {
 
 export default {
   columns: [
-    { name: "author", align: "left" },
-    { name: "function", align: "left" },
-    { name: "status", align: "center" },
-    { name: "employed", align: "center" },
-    { name: "action", align: "center" },
+    { name: "Assigned by", align: "left" },
+    { name: "work done", align: "left" },
+    { name: "deadline", align: "center" },
+    { name: "upload here", align: "center" },
+    { name: "view hey", align: "center" },
   ],
 
-  rows: [
+ /* rows: [
     {
       author: <Author image={avatar4} name="Esthera Jackson" email="esthera@simmmple.com" />,
       function: <Function job="Manager" org="Organization" />,
@@ -243,5 +243,5 @@ export default {
         </VuiTypography>
       ),
     },
-  ],
+  ],*/
 };
