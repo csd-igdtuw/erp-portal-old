@@ -16,6 +16,7 @@
 
 */
 
+
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
@@ -39,6 +40,7 @@ import colors from "assets/theme/base/colors";
 
 // Dashboard layout components
 import WelcomeMark from "layouts/dashboard/components/WelcomeMark";
+import Calendar from "layouts/dashboard/components/Calendar";
 import Projects from "layouts/dashboard/components/Projects";
 import OrderOverview from "layouts/dashboard/components/OrderOverview";
 import SatisfactionRate from "layouts/dashboard/components/SatisfactionRate";
@@ -60,6 +62,10 @@ import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptio
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
 
+
+//"Orders Overview" file is the ONE WITH POSTER AND ALL EVENT FORMATTING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 function Dashboard() {
   const { gradients } = colors;
   const { cardContent } = gradients;
@@ -68,11 +74,24 @@ function Dashboard() {
     <DashboardLayout>
       <DashboardNavbar />
       <VuiBox py={3}>
-        <Grid container spacing={3} direction="row" justifyContent="center" alignItems="stretch">
-          <Grid item xs={12} md={6} lg={8}>
-            <Projects />
+        
+        <VuiBox mb={3}>
+          <Grid container spacing="18px">
+            
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
+        </VuiBox>
+        <Grid container spacing={2} direction="row" justifyContent="left" alignItems="stretch">
+          <Grid item xs={12} md={6} lg={8}>
+            <Grid container spacing={2} direction="row" justifyContent="left" alignItems="stretch">
+              <Grid item xs={12} md={6} lg={12}>
+                <Calendar />
+              </Grid>
+              <Grid item xs={12} md={6} lg={12}>
+                <Projects />
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={6} md={3} lg={4}>
             <OrderOverview />
           </Grid>
         </Grid>
@@ -83,3 +102,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
