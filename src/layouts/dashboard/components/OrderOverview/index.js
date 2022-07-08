@@ -49,7 +49,7 @@ function OrdersOverview() {
         <VuiBox mb={2}>
           <VuiBox display="flex" alignItems="center">
             <VuiTypography variant="button" color="text" fontWeight="regular">
-              CSD Event Committee Name- Pejas
+              Pejas
             </VuiTypography>   
           </VuiBox>
         </VuiBox>
@@ -57,7 +57,7 @@ function OrdersOverview() {
       <VuiBox>
         <TimelineItem
           icon={<FaBell size="16px" color={palette.info.main} />}
-          title="Event Name-Relay Race"
+          title="Event Name:  Relay Race"
           dateTime="22 DEC 10:30 AM"
         />
       </VuiBox>

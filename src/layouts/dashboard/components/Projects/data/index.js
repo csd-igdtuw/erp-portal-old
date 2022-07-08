@@ -18,7 +18,14 @@ import avatar1 from "assets/images/avatar1.png";
 import avatar2 from "assets/images/avatar2.png";
 import avatar3 from "assets/images/avatar3.png";
 import avatar4 from "assets/images/avatar4.png";
-import Inayat from "assets/images/Inayat.jpg";
+import Adira from "assets/images/small-logos/Adira-logo.png";
+import Cognito from "assets/images/small-logos/cognito-logo.png";
+import Eudai from "assets/images/small-logos/Eudai-logo.png";
+import Inayat from "assets/images/small-logos/inayat-logo.png";
+import CSD from "assets/images/small-logos/logo.png";
+import Pejas from "assets/images/small-logos/pejas-logo.png";
+import SD from "assets/images/small-logos/SD-logo.png";
+
 
 export default function data() {
   const avatars = (members) =>
@@ -49,6 +56,7 @@ export default function data() {
   return {
     columns: [
       { name: "Event", align: "left" },
+      { name: "Team", align: "left" },
       { name: "Date", align: "left" },
       { name: "Venue", align: "center" },
     ],
@@ -56,10 +64,17 @@ export default function data() {
     rows: [
       {
         Event: (
+          <VuiBox display="flex" alignItems="left">
+            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
+              Care Wear Repair
+            </VuiTypography>
+          </VuiBox>
+        ),
+        Team: (
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Care Wear Repair
+              Inayat
             </VuiTypography>
           </VuiBox>
         ),
@@ -80,10 +95,17 @@ export default function data() {
       },
       {
         Event: (
+          <VuiBox display="flex" alignItems="left">
+            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
+              Relay Race
+            </VuiTypography>
+          </VuiBox>
+        ),
+        Team: (
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Relay Race
+              Pejas
             </VuiTypography>
           </VuiBox>
         ),
@@ -104,10 +126,17 @@ export default function data() {
       },
       {
         Event: (
+          <VuiBox display="flex" alignItems="left">
+            <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
+              Chill se Chillao
+            </VuiTypography>
+          </VuiBox>
+        ),
+        Team: (
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Care Wear Repair
+              Pejas
             </VuiTypography>
           </VuiBox>
         ),
