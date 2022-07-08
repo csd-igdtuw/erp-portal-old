@@ -41,7 +41,7 @@ const Welcome = () => {
       <VuiBox display="flex" flexDirection="column" sx={{ height: "100%" }}>
         <VuiBox display="flex" flexDirection="column" mb="auto">
           <VuiTypography color="white" variant="h3" fontWeight="bold" mb="3px">
-           Mentor Coordinator's Profile
+          Associates's Profile
            {/* <img alt="avatar" style={{height:70, width:70, border: "4px solid #fff", borderRadius:'50%'}} src={ avatar_csd}/> */}
           </VuiTypography>
           <VuiTypography color="white" variant="button" fontWeight="regular">
@@ -52,6 +52,7 @@ const Welcome = () => {
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
             Srishty Sharma
           </VuiTypography><br/>
+          
           <VuiTypography    color="white" variant="form" fontWeight="regular" >
            Enrollment no. : 13501022020
           </VuiTypography><br/>
@@ -63,6 +64,9 @@ const Welcome = () => {
           </VuiTypography><br/>
           <VuiTypography color="white" variant="form" fontWeight="regular">
            Contact no. : +91-9773717509
+          </VuiTypography><br/>
+          <VuiTypography    color="white" variant="form" fontWeight="regular" >
+            Team: Pejas
           </VuiTypography><br/>
 
         </VuiBox>
