@@ -49,7 +49,7 @@ function Author({ image, name, email }) {
   );
 }
 
-function Function({ job, org }) {
+/*function Function({ job, org }) {
   return (
     <VuiBox display="flex" flexDirection="column">
       <VuiTypography variant="caption" fontWeight="medium" color="white">
@@ -60,7 +60,7 @@ function Function({ job, org }) {
       </VuiTypography>
     </VuiBox>
   );
-}
+}*/
 
 export default {
   columns: [
