@@ -35,36 +35,42 @@ const CarInformations = () => {
   return (
     <Card
       sx={({ breakpoints }) => ({
-      //   [breakpoints.up("xxl")]: {
-      //     // Height:  "20px",
-      //     maxHeight: "100px",
-      //     // width: "700px",
-      //   },
-      borderRadius: "20px",
-      marginLeft:"100px",
-      width: "600px",
-      height: "400px",
+        //   [breakpoints.up("xxl")]: {
+        //     // Height:  "20px",
+        //     maxHeight: "100px",
+        //     // width: "700px",
+        //   },
+        borderRadius: "20px",
+        // marginLeft: "100px",
+        width: "600px",
+        height: "400px",
       })}
     >
       <VuiBox display="flex" flexDirection="column" sx={{ height: "100%" }}>
-      <VuiTypography    color="white" variant="form" fontWeight="regular" >
-      CSD IGDTUW, Phase -3 (July 2022- July 2023)
-          </VuiTypography><br/>
-          <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           Cousre: B.Tech 
-          </VuiTypography><br/>
-          <VuiTypography    color="white" variant="form" fontWeight="regular" >
+        <VuiTypography color="white" variant="form" fontWeight="regular">
+          CSD IGDTUW, Phase -3 (July 2022- July 2023)
+        </VuiTypography>
+        <br />
+        <VuiTypography color="white" variant="form" fontWeight="regular">
+          Cousre: B.Tech
+        </VuiTypography>
+        <br />
+        <VuiTypography color="white" variant="form" fontWeight="regular">
           Department: Electronics and Communication Engineering
-          </VuiTypography><br/>
-          <VuiTypography    color="white" variant="form" fontWeight="regular" >
-           Year: 3rd
-          </VuiTypography><br/>
-          <VuiTypography    color="white" variant="form" fontWeight="regular" >
-            GEC: Yes
-          </VuiTypography><br/>
-          <VuiTypography    color="white" variant="form" fontWeight="regular" >
+        </VuiTypography>
+        <br />
+        <VuiTypography color="white" variant="form" fontWeight="regular">
+          Year: 3rd
+        </VuiTypography>
+        <br />
+        <VuiTypography color="white" variant="form" fontWeight="regular">
+          GEC: Yes
+        </VuiTypography>
+        <br />
+        <VuiTypography color="white" variant="form" fontWeight="regular">
           Compulsory Subject: No
-          </VuiTypography><br/>
+        </VuiTypography>
+        <br />
       </VuiBox>
     </Card>
   );

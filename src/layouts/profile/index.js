@@ -142,7 +142,7 @@ function Overview() {
                   Architects design houses
                 </VuiTypography>
               </VuiBox> */}
-              {/* <Grid container spacing={3}>
+        {/* <Grid container spacing={3}>
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile1}
@@ -163,7 +163,7 @@ function Overview() {
                     ]}
                   />
                 </Grid> */}
-                {/* <Grid item xs={12} md={6} xl={4}>
+        {/* <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile2}
                     label="project #1"
@@ -183,7 +183,7 @@ function Overview() {
                     ]}
                   />
                 </Grid> */}
-                {/* <Grid item xs={12} md={6} xl={4}>
+        {/* <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile3}
                     label="project #3"
@@ -203,9 +203,9 @@ function Overview() {
                     ]}
                   />
                 </Grid> */}
-              {/* </Grid>
+        {/* </Grid>
             </VuiBox> */}
-          {/* </Card> */}
+        {/* </Card> */}
         {/* </Grid> */}
       </Grid>
 

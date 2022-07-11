@@ -31,11 +31,11 @@ import Table from "examples/Tables/Table";
 
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";
-//import projectsTableData from "layouts/tables/data/projectsTableData";
+import projectsTableData from "layouts/tables/data/projectsTableData";
 
 function Tables() {
   const { columns, rows } = authorsTableData;
-  //const { columns: prCols, rows: prRows } = projectsTableData;
+  // const { columns: prCols, rows: prRows } = projectsTableData;
 
   return (
     <DashboardLayout>
@@ -66,7 +66,7 @@ function Tables() {
             </VuiBox>
           </Card>
         </VuiBox>
-        <Card>
+        {/* <Card>
           <VuiBox display="flex" justifyContent="space-between" alignItems="center">
             <VuiTypography variant="lg" color="white">
               Projects table
@@ -88,7 +88,7 @@ function Tables() {
           >
             <Table columns={prCols} rows={prRows} />
           </VuiBox>
-        </Card>
+        </Card> */}
       </VuiBox>
       <Footer />
     </DashboardLayout>

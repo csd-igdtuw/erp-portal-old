@@ -46,8 +46,8 @@ function Billing() {
             <Grid item xs={12} lg={7} xl={8}>
               <Grid container spacing={3}>
                 <Grid item xs={12} xl={6}>
-                  <MasterCard number={7812213908237916} valid="" cvv="" /> 
-                </Grid> 
+                  <MasterCard number={7812213908237916} valid="" cvv="" />
+                </Grid>
                 <Grid item xs={12} md={12} xl={6}>
                   <CreditBalance />
                 </Grid>
@@ -66,9 +66,9 @@ function Billing() {
             {/* <Grid item xs={12} md={7}>
               <BillingInformation />
             </Grid> */}
-             <Grid item xs={12} md={5}>
+            <Grid item xs={12} md={5}>
               <Transactions />
-            </Grid> 
+            </Grid>
           </Grid>
         </VuiBox>
       </VuiBox>
